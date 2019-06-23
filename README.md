@@ -15,7 +15,7 @@ Point your browser to
 use the following query
 
 ### query for a single employee
-```json
+```javascript
 {
   employee(id: 2) {
      name
@@ -25,7 +25,7 @@ use the following query
 ```
 
 ### query for all employee
-```json
+```javascript
 {
   employees{
      name
@@ -36,7 +36,7 @@ use the following query
 ```
 
 ### add en amployee
-```json
+```javascript
 mutation {
    addEmployee(name:"John John John", email:"john3@gmail.com", age: 46){
       name
@@ -48,7 +48,7 @@ mutation {
 
 
 ### update en amployee
-```json
+```javascript
 mutation {
    editEmployee(id: 3, age: 40){
       name
@@ -59,7 +59,7 @@ mutation {
 ```
 
 ### update en amployee
-```json
+```javascript
 mutation {
    deleteEmployee(id: 2){
       id
