@@ -1,0 +1,21 @@
+{
+  "name": "graphql-crud",
+  "version": "1.0.0",
+  "description": "A simple emplyee graph sql server based on express and axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "json:server": "json-server --watch data.json "
+  },
+  "author": "yonggang.xie@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "json-server": "^0.15.0",
+    "nodemon": "^1.19.1"
+  }
+}
